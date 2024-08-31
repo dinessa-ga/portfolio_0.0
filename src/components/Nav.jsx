@@ -1,16 +1,18 @@
+import NavLinks from './NavLinks'
+import PropTypes from 'prop-types'
 
-
-function Nav() {
-  return (
-    <nav className="bg-secondary text-base-100 h-screen w-full flex flex-col items-center justify-center">
-      <ul className="space-y-4">
-        <li><a href="#about" className="text-xl">About</a></li>
-        <li><a href="#projects" className="text-xl">Projects</a></li>
-        <li><a href="#skills" className="text-xl">Skills</a></li>
-        {/* <li><a href="#contact" className="text-xl">Contact</a></li> */}
-      </ul>
-    </nav>
-  );
+function Nav({ isOpen, toggleNav }) 
+{   return (
+  <nav className={`bg-secondary text-base-100 h-screen w-full fixed top-0 left-0 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:hidden`}>
+    <NavLinks />
+    <button onClick={toggleNav} className="absolute top-4 right-4 text-lg md:hidden">✕</button>
+  </nav>
+)
 }
 
-export default Nav;
+Nav.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  toggleNav: PropTypes.func.isRequired,
+}
+
+export default Nav
