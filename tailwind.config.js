@@ -11,9 +11,9 @@ export default {
         secondary: '#591fff', //   Azul-morado primario
         accent: '#f95a98', // Fucsia de acento
         neutral: '#ffa6f3', // Rosa neutro
-        neutral_dark:'#0a0224',
-        'base-100': '#fff3fe', // Blanco base
-        black: '#0000',
+        neutral_dark:'#9908CD',
+        'base-white': '#fff3fe', // Blanco base
+        
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

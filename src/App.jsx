@@ -20,7 +20,7 @@ function App() {
   // className="bg-base-100 text-neutral_dark font-sans" style={{ margin: 0, padding: 0 }}
   
   return (
-    <div className="bg-base-100 text-neutral font-sans">
+    <div className="bg-secondary text-base-white font-sans" style={{ margin: 0, padding: 0 }}>
       <Header toggleNav={toggleNav} />
       <Nav isOpen={isNavOpen} toggleNav={toggleNav} />
       <main className="p-4">
