@@ -1,14 +1,15 @@
-
 import './App.css'
 import Header from './components/Header.jsx'
 import Nav from './components/Nav'
 import About from './components/About'
 import Projects from './components/Projects'
+import Services from './components/Services.jsx'
 import Skills from './components/Skills'
 // import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 import { useState } from 'react';
+
 function App() {
 
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -25,7 +26,8 @@ function App() {
       <Nav isOpen={isNavOpen} toggleNav={toggleNav} />
       <main className="p-4">
         <About />
-        <Projects />
+        <Projects /> 
+        <Services/>
         <Skills />
         {/* <Contact /> */}
       </main>
