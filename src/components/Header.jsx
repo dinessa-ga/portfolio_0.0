@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 function Header({ toggleNav }) {
   return (
     <header className="bg-primary text-base-100 p-4 flex justify-between items-center">
-      <h1 className="text-4xl font-bold">Diana Guaiña</h1>
+      <h1 className="text-4xl font-bold ml-12">Diana Guaiña</h1>
       <nav className="hidden md:flex">
         <NavLinks />
       </nav>
