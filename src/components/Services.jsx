@@ -1,28 +1,45 @@
 
 const services = [
   {
-    title: 'Web Development',
+    title: 'Edición del CV',
     image: '',
-    description: 'Building responsive and modern web applications.',
+    description: 'Mejora de la redacción del CV.',
+    link: ''
+  },{
+    title: 'Asesoría de línea gráfica',
+    image: '',
+    description: 'Potenciando tu línea gráfica y creación de contenido',
     link: ''
   },
   {
-    title: 'Mobile Development',
+    title: 'Asesoría de copywriting',
     image: '',
-    description: 'Creating mobile applications for Android and iOS.',
+    description: 'Creando tu marca personal desde las palabras.',
     link: ''
   },
   {
-    title: 'UI/UX Design',
+    title: 'Creación de páginas web',
     image: '',
     description: 'Designing user-friendly interfaces and experiences.',
+    link: ''
+  },
+  {
+    title: 'Creación de landing page',
+    image: '',
+    description: 'Designing user-friendly interfaces and experiences.',
+    link: ''
+  },
+  {
+    title: 'Optimización de tu web',
+    image: '',
+    description: 'Desde el UX Writing y Copywriting.',
     link: ''
   }
 ];
 
 const Services = () => {
   return (
-    <section className="services">
+    <section id="services">
       <h2 className="text-3xl font-bold mb-4">Servicios</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {services.map((service, index) => (

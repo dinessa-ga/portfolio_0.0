@@ -3,7 +3,7 @@ const projects = [
   {
     title: 'Mi portafolio en inglés',
     image: 'ruta/a/imagen1.jpg',
-    description: 'Descripción del Proyecto 1.',
+    description: 'En el proyecto se aplica arquitectura CSS de BEM.',
     link: 'https://enlaceproyecto1.com'
   },
   {
