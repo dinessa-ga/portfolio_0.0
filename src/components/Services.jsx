@@ -1,38 +1,38 @@
 
 const services = [
   {
-    title: 'Edición del CV',
-    image: '',
-    description: 'Mejora de la redacción del CV.',
+    title: 'CV / Hoja de vida',
+    image: 'src/assets/services/cv.png',
+    description: 'Mejora de la redacción del CV y optimización para ATS.',
     link: ''
   },{
     title: 'Asesoría de línea gráfica',
-    image: '',
+    image: 'src/assets/services/graphic-line.png',
     description: 'Potenciando tu línea gráfica y creación de contenido',
     link: ''
   },
   {
-    title: 'Asesoría de copywriting',
-    image: '',
-    description: 'Creando tu marca personal desde las palabras.',
+    title: 'Copywriting y UX Writing',
+    image: 'src/assets/services/words.png',
+    description: 'Creando tu marca personal desde las palabras, textos persuasivos y accesibles.',
     link: ''
   },
   {
     title: 'Creación de páginas web',
-    image: '',
-    description: 'Designing user-friendly interfaces and experiences.',
+    image: 'src/assets/services/web.jpg',
+    description: 'Diseño amigable de interfaces y experiencias.',
     link: ''
   },
   {
-    title: 'Creación de landing page',
-    image: '',
-    description: 'Designing user-friendly interfaces and experiences.',
+    title: 'Estrategia de contenido',
+    image: 'src/assets/services/content.jpg',
+    description: 'Creación de contenido estratégico para redes sociales.',
     link: ''
   },
   {
-    title: 'Optimización de tu web',
-    image: '',
-    description: 'Desde el UX Writing y Copywriting.',
+    title: 'Creación de chatbots',
+    image: 'src/assets/services/chatbot.jpg',
+    description: 'Automatización de procesos con chatbots personalizados.',
     link: ''
   }
 ];
