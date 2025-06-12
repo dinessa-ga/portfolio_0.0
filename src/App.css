@@ -10,6 +10,10 @@
   
 }
 
+#about {
+  margin-top: 10%;
+}
+
 #about-info{
 display: flex;
 justify-content: left;
