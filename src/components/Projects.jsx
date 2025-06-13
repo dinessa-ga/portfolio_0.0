@@ -2,7 +2,7 @@
 const projects = [
   {
     title: 'Mi portafolio en inglés',
-    image: 'public/projects/homepage-cv.png',
+    image: "/projects/homepage-cv.png",
     description: 'En el proyecto se aplica arquitectura CSS de BEM.',
     link: 'https://dinessa-ga.github.io/homepage/'
   },
