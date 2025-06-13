@@ -12,4 +12,4 @@ Currently, two official plugins are available:
 Se adjuntó las imágenes para cada una de las cards y se fijo el header para que se pueda navegar con mayor facilidad.
 
 ## Set up
-Este proyecto ha sido desarrollo con Vite.js y javascript, la estructura de compone por componentes.
+Este proyecto ha sido desarrollo con Vite.js y javascript, la estructura se basa por componentes.
