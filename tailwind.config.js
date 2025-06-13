@@ -8,11 +8,11 @@ export default {
     extend: {
       colors: {
         primary: ' #ca0cda', // Púrpura
-        secondary: '#591fff', //   Azul-morado primario
-        accent: '#f95a98', // Fucsia de acento
-        neutral: '#ffa6f3', // Rosa neutro
-        neutral_dark:'#9908CD',
-        'base-white': '#fff3fe', // Blanco base
+        secondary: ' #591fff', //   Azul-morado primario
+        accent: ' #f95a98', // Fucsia de acento
+        neutral: ' #ffa6f3', // Rosa neutro
+        neutral_dark:' #9908CD',
+        'base-white': ' #fff3fe', // Blanco base
         
       },
       fontFamily: {
