@@ -2,37 +2,37 @@
 const projects = [
   {
     title: 'Mi portafolio en inglés',
-    image: "/projects/homepage-cv.png",
+    image: 'projects1/homepage-cv.png',
     description: 'En el proyecto se aplica arquitectura CSS de BEM.',
     link: 'https://dinessa-ga.github.io/homepage/'
   },
   {
     title: 'Social Network',
-    image: 'public/projects/beat-app.png',
+    image: 'projects1/beat-app.png',
     description: 'Beat, primer proyecto aplicando UX design, reviews de música.',
     link: 'https://github.com/dinessa-ga/DEV003-social-network'
   },
   {
     title: 'Bluetab - Human Resources',
-    image: 'public/projects/bluetab.png',
+    image: 'projects1/bluetab.png',
     description: 'Formulario y Chatbot para la búsqueda y formación de equipos de trabajo.',
     link: 'https://github.com/dinessa-ga/Bluetab_desarrollo'
   },
   //Agrega más proyectos según sea necesario
   {
     title: 'Proyecto guiado por CCI',
-    image: 'public/projects/cci1.png',
+    image: 'projects1/cci1.png',
     description: 'Automatización mediante IA con principios sólidos de ingeniería de software. ',
     link: 'https://github.com/dinessa-ga/LLM-benchmark-frontend'},
   {
     title: 'Librería Online',
-    image: 'public/projects/bookstore.png',
+    image: 'projects1/bookstore.png',
     description: 'Librería Online, proyecto en Vite.js con Redux.',
     link: 'https://github.com/dinessa-ga/book-app-frontend'
   },
   {
     title: 'Validador de Tarjetas de Crédito',
-    image: 'public/projects/card-validation.png',
+    image: 'projects1/card-validation.png',
     description: 'Descripción del Proyecto 4.',
     link: 'https://github.com/dinessa-ga/DEV003-card-validation_Dinessa'
   },
