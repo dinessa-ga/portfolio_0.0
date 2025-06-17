@@ -49,7 +49,7 @@ function Projects() {
             <div className="p-4">
               <h3 className="text-secondary font-bold mb-2">{project.title}</h3>
               <p className="text-gray-700 mb-4">{project.description}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <a href={project.link} target="_blank" rel="noopener noreferrer"> 
                 <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
                   Ver Proyecto
                 </button>

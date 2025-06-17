@@ -29,3 +29,7 @@ text-align: left; /* Add this line to align text to the left */
 section{
   padding: 5%;
 }
+
+input {
+  color: black;
+}
