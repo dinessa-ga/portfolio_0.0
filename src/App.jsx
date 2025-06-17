@@ -5,7 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Services from './components/Services'
 import Skills from './components/Skills'
-// import Contact from './components/Contact'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 import { useState } from 'react';
@@ -29,7 +29,7 @@ function App() {
         <Projects /> 
         <Services/>
         <Skills />
-        {/* <Contact /> */}
+        <Contact />
       </main>
       <Footer />
     </div>

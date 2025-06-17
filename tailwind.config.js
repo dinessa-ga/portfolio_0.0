@@ -12,6 +12,7 @@ export default {
         accent: ' #f95a98', // Fucsia de acento
         neutral: ' #ffa6f3', // Rosa neutro
         neutral_dark:' #9908CD',
+        dark1: ' #2b0f78',
         'base-white': ' #fff3fe', // Blanco base
         
       },

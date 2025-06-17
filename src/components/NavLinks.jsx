@@ -6,7 +6,7 @@ function NavLinks() {
       <li><a href="#projects" className="text-xl">Proyectos</a></li>
       <li><a href="#services" className="text-xl">Servicios</a></li>
       <li><a href="#skills" className="text-xl">Skills</a></li>
-      {/* <li><a href="#contact" className="text-xl">Contact</a></li> */}
+      <li><a href="#contact" className="text-xl">Contacto</a></li>
     </ul>
     );
 }
