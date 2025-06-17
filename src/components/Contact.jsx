@@ -31,17 +31,25 @@ const Contact = () => {
     };  
 
     return (
-        <section id="contact" className="py-16 margin-top-8">
-            <div className="max-w-3xl mx-auto px-4 text-black" >
-                <h2 className="text-3xl font-bold text-center mb-4 text-base-white">Contacto</h2>
-                <p className="text-center mb-8 text-lg font-medium text-base-white">
-                    Empieza tu proyecto ahora... ¡Envíame un mensaje y te responderé pronto!
-                </p>
-                {sent && (
-                    <div className="bg-green-100 text-green-700 p-4 rounded mb-8 text-center">
-                        ¡Mensaje enviado exitosamente!
-                    </div>
-                )}  
+    <section id="contact" className="py-16 margin-top-8">
+        <div className="max-w-5xl mx-auto px-4 text-black">
+            <h2 className="text-3xl font-bold text-center md:text-left mb-4 text-base-white">Contacto</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-top">
+                
+                {/* Columna de texto */}
+                <div>
+                    
+                    <p className="text-center md:text-left mb-8 text-lg font-medium text-base-white">
+                        Empieza tu proyecto ahora... ¡Envíame un mensaje y te responderé pronto!
+                    </p>
+                    {sent && (
+                        <div className="bg-green-100 text-green-700 p-4 rounded mb-8 text-center">
+                            ¡Mensaje enviado exitosamente!
+                        </div>
+                    )}
+                </div>
+
+                {/* Columna del formulario */}
                 <form
                     onSubmit={handleSubmit}
                     className="space-y-4 bg-base-white p-8 rounded-lg shadow-md flex flex-col items-center"
@@ -90,8 +98,9 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
-        </section>
-    );
+        </div>
+    </section>
+);
 };
 
 export default Contact;

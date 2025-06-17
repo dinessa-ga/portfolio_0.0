@@ -1,7 +1,6 @@
 
 #root {
-  margin: 0 auto;
-  text-align: center;
+    text-align: center;
 }
 
 #skills {
@@ -10,15 +9,10 @@
   
 }
 
-#about {
-  margin-top: 10%;
-}
+
 
 #about-info{
-display: flex;
-justify-content: left;
-padding: 10px;
-gap: 20px; /* Add this line to create space between the divs */
+
 text-align: left; /* Add this line to align text to the left */
 }
 
@@ -26,9 +20,6 @@ text-align: left; /* Add this line to align text to the left */
   text-align: left;
 }
 
-section{
-  padding: 5%;
-}
 
 input {
   color: black;
