@@ -99,8 +99,7 @@ function About() {
           <p className="text-lg mt-10">
             Creo soluciones desde el análisis de procesos, tareas, diseños y la resolución de problemas.
             Mis años de experiencia en creación de contenido, conocimiento en diseño y desarrollo
-            de aplicaciones web y móviles, me permiten crear soluciones centradas en la experiencia de
-            usuario para diferentes tipos de negocios.
+            de aplicaciones web y móviles, me permiten crear soluciones para diferentes modelos de negocios.
           </p>
           <div className="flex gap-4 mt-10">
             <a
