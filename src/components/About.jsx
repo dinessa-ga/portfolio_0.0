@@ -88,11 +88,11 @@ function About() {
       style={{ backgroundImage: "url('/about_me/12.png')" }} // Manteniendo tu imagen
     >
       {/* Capa oscura para mejorar la legibilidad */}
-      <div className="absolute inset-0 bg-secondary/50"></div>
+      <div className="absolute inset-0 bg-secondary/60"></div>
 
       <div className="relative max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start gap-8">
         <div id="about-info" className="flex-1 text-white">
-          <h2 id="about-title" className="text-3xl font-bold mt-10">Sobre mí</h2>
+          <h2 id="about-title" className="text-3xl font-bold mt-10">Software Consultant and Developer</h2>
           <h3 className="text-lg mt-10">
             Creando soluciones centradas en la experiencia de usuario
           </h3>
@@ -115,7 +115,7 @@ function About() {
               href="#contact"
               className="bg-primary hover:bg-neutral_dark text-white px-4 py-2 rounded transition"
             >
-              Contacto
+              Trabajemos juntos 
             </a>
           </div>
         </div>
