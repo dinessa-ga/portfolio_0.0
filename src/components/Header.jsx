@@ -1,14 +1,14 @@
+import Nav from './Nav'
 import NavLinks from './NavLinks'
 import PropTypes from 'prop-types'
 
 function Header({ toggleNav }) {
   return (
-    <header className="bg-base-white text-secondary p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+    <header className="bg-base-white text-secondary p-2 flex justify-between items-center fixed top-0 left-0 w-full z-50">
       <h1 className="text-3xl font-bold ml-12 text-neutral-dark">Diana Guaiña</h1>
-      <nav className="hidden md:flex text-neutral-dark">
-        <NavLinks className="text-neutral-dark" />
-      </nav>
-      <button onClick={toggleNav} className="md:hidden text-lg text-neutral-dark">☰</button>
+      {/* <cuando quise  usar el componente <Nav/> desde el componente header, me daba un error porque x = se se veían sobremontados comentado */}
+      
+      
     </header>
   )
 }
