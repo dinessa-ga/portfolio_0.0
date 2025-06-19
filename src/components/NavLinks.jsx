@@ -1,6 +1,5 @@
 const NavLinks = ({ className = '' }) => {
   const links = [
-    // { name: 'Inicio', href: '#inicio' },
     { name: 'Sobre mí', href: '#about' },
     { name: 'Proyectos', href: '#projects' },
     { name: 'Servicios', href: '#services' },
@@ -13,9 +12,9 @@ const NavLinks = ({ className = '' }) => {
         <li key={link.name}>
           <a
             href={link.href}
-            className="text-secondary hover:text-dark1 transition block px-4 py-2"
+            className="text-secondary hover:text-dark1 hover:font-bold text-lg transition block px-4 py-2"
           >
-            {link.name}   
+            {link.name}
           </a>
         </li>
       ))}

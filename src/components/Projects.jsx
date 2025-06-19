@@ -40,7 +40,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="mt-8 ">
+    <section id="projects" className="mt-8 py-20">
       <h2 className="text-3xl font-bold mb-4">Proyectos</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
