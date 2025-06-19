@@ -42,8 +42,8 @@ const skillsData = [
   { name: 'Python', icon: <FaPython className="text-yellow-500 w-12 h-12" /> },
   { name: 'Node.js', icon: <FaNodeJs className="text-green-600 w-12 h-12" /> },
   { name: 'React', icon: <FaReact className="text-blue-500 w-12 h-12" />},
-  { name: 'Next.js', icon: <SiNextdotjs className="text-black w-12 h-12" /> },
-  { name: 'GitHub - Bitbucket', icon: <FaGithub className="text-gray-700 w-12 h-12" /> },
+  { name: 'Next.js', icon: <SiNextdotjs className="text-gray-300 w-12 h-12" /> },
+  { name: 'GitHub', icon: <FaGithub className="text-gray-300 w-12 h-12" /> },
   {name: 'Bitbucket', icon: <SiBitbucket className="text-blue-600 w-12 h-12" /> },
   { name: 'Firebase - Firestore', icon: <SiFirebase className="text-yellow-500 w-12 h-12" /> },
   { name: 'SQL', icon: <FaDatabase className="text-purple-500 w-12 h-12" /> },
@@ -74,7 +74,7 @@ const Skills = () => {
         <h2 className="text-3xl font-bold mb-8">Habilidades</h2>
         <div className="relative">
           <button
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-base-white text-gray-900 shadow-lg rounded-full p-2 hover:bg-accent hover:text-base-white transition border-2 border-accent"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-base-white/25 text-accent shadow-lg rounded-full p-2 hover:bg-accent hover:text-base-white transition border-2 border-accent"
             onClick={() => scroll('left')}
             aria-label="Scroll left"
             type="button"
@@ -104,7 +104,7 @@ const Skills = () => {
             ))}
           </div>
           <button
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-base-white text-gray-900 shadow-lg rounded-full p-2 hover:bg-accent hover:text-base-white transition border-2 border-accent"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-base-white/25 text-accent shadow-lg rounded-full p-2 hover:bg-accent hover:text-base-white transition border-2 border-accent"
             onClick={() => scroll('right')}
             aria-label="Scroll right"
             type="button"
