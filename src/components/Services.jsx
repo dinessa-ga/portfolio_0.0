@@ -39,15 +39,25 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="mt-8">
+    <section
+      id="services"
+      className="mt-8 max-w-6xl mx-auto px-4"
+    >
       <h2 className="text-3xl font-bold mb-4">Servicios</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
-          <div key={index} className="bg-base-white shadow-md rounded-lg overflow-hidden">
-            <img src={service.image} className="w-full h-48 object-cover" />
-            <div className="p-4">
+          <div
+            key={index}
+            className="bg-base-white shadow-md rounded-lg overflow-hidden flex flex-col h-[420px]"
+          >
+            <img
+              src={service.image}
+              className="w-full h-56 object-cover"
+              alt={service.title}
+            />
+            <div className="p-4 flex flex-col flex-1">
               <h3 className="text-secondary font-bold mb-2">{service.title}</h3>
-              <p className="text-gray-700 mb-4">{service.description}</p>
+              <p className="text-gray-700 mb-4 flex-1">{service.description}</p>
               <a href={service.link} target="_blank" rel="noopener noreferrer">
                 <button className="bg-primary text-white px-4 py-2 rounded hover:bg-neutral_dark transition duration-300">
                   Ver más

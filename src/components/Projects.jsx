@@ -33,14 +33,14 @@ const projects = [
   {
     title: 'Validador de Tarjetas de Crédito',
     image: 'projects1/card-validation.png',
-    description: 'Descripción del Proyecto 4.',
+    description: 'Validación de tarjetas de crédito con algoritmo de Luhn.',
     link: 'https://github.com/dinessa-ga/DEV003-card-validation_Dinessa'
   },
 ];
 
 function Projects() {
   return (
-    <section id="projects" className="mt-8 py-20">
+    <section id="projects" className="mt-8 max-w-6xl mx-auto px-4">
       <h2 className="text-3xl font-bold mb-4">Proyectos</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
