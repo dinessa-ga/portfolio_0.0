@@ -47,3 +47,10 @@ function Header() {
 }
 
 export default Header;
+/*
+Recomendación:
+Para un estilo minimalista, el header debe ser transparente o semitransparente, sin sombra ni bordes, y el texto debe tener suficiente contraste con el fondo del main. Así, el header se integra visualmente con el contenido, evitando bloques de color innecesarios. Asegúrate de que el background del main tenga suficiente contraste para la accesibilidad.
+
+Ejemplo de estilos minimalistas:
+- Elimina la clase `bg-base-white` y `shadow` del header.
+*/

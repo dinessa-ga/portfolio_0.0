@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative min-h-screen w-full bg-cover overflow-hidden mt-0 pt-24"
+      className="relative min-h-screen w-full bg-cover overflow-hidden my-10"
       style={{ backgroundImage: "url('/about_me/12.png')" }} // Manteniendo tu imagen
     >
       {/* Capa oscura para mejorar la legibilidad */}
@@ -11,7 +11,7 @@ function About() {
       <div className="relative max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start gap-8">
         <div id="about-info" className="flex-1 text-white">
           <h2 id="about-title" className="text-3xl font-bold mt-10">Software Consultant and Developer</h2>
-          <h3 className="text-lg mt-10">
+          <h3 className="text-lg ">
             Creando soluciones centradas en la experiencia de usuario
           </h3>
           <p className="text-lg mt-10">
@@ -19,7 +19,7 @@ function About() {
             Mis años de experiencia en creación de contenido, conocimiento en diseño y desarrollo
             de aplicaciones web y móviles, me permiten crear soluciones para diferentes modelos de negocios.
           </p>
-          <div className="flex gap-4 mt-10">
+          <div className="flex gap-4 my-10">
             <a
               href="https://wa.link/ulco9o"
               className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded transition"
