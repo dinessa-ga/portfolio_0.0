@@ -2,7 +2,7 @@ const NavLinks = ({ className = '' }) => {
   const links = [
     { name: 'Sobre mí', href: '#about' },
     { name: 'Proyectos', href: '#projects' },
-    { name: 'Servicios', href: '#services' },
+  
     { name: 'Contacto', href: '#contact' },
   ];
 
